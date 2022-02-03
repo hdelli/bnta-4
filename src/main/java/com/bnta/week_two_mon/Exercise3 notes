@@ -1,0 +1,15 @@
+ public static void main(String[] args)
+
+ for (String arg: args)
+
+ javac /filenames/another/ --> compiles your package this will create
+
+ java com/bnta/exercises/etc  but it will be empty you havent passed an argument through it
+
+  java com/bnta/exercises/etc "add a programmed argument"
+
+  ERRORs: could not find class
+
+
+
+ package string and package class

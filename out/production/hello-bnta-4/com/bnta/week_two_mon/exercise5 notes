@@ -1,0 +1,15 @@
+for a number of jokes
+
+make an array of jokes within a method
+
+String [] jokes = {
+"string1 but index0" <-- computer always starts from 0
+"string2 but index 1"
+"string3 but index 2"
+}
+
+
+use Random random = new Random()
+
+int randomNumber = random.nextInt(bound: 5 <--- but dont limit this to a certain number so just do joke.length)
+sout[randomNumber]

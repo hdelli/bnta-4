@@ -1,0 +1,41 @@
+exit code 1 = error <-- stops at this point
+
+exit code 0 = worked
+
+echo "?" in terminal
+if it gives you back 0
+means it has worked
+
+anything between try and catch will be caught but you can be specific with what you want to catch
+
+
+
+
+(Exception e) <-- parent of all exceptions
+theres different types of exceptions
+NumberFormatException
+NosuchfileException -- no such file found
+
+theres two types of exceptions: checked and unchecked
+Checked- anticipate it
+Unchecked - did not anticipate - inside program LOGIC is incorrect
+
+
+checked:
+File file = new File("./foo.txt");
+FileInputStream fileInputStream = new FileInputStream <--- this was highlighted in red so the program
+is telling you that theres an issue before you even compile your code
+reflects some error
+
+to fix this try to catch it
+
+use throw Exceptions-class can be used
+
+Unchecked:
+System.out.println(10/0); <-- unchecked it is not in the try-catch but computer should be able to deal with it
+to fix - fix your LOGIC
+use throw RuntimeException-class or any of its subclasses on the unchecked
+
+you can throw your exception to the JVM/MAIN
+you wouldnt want to do this but if youre testing a code you can just throw exception to the program
+

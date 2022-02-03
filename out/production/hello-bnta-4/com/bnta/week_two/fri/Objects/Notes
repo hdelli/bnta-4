@@ -1,0 +1,34 @@
+Class- a blueprint to represent anything in the real world/template allows you to identify properties and behaviours of an object
+this is what makes up an object
+
+you can model anything in the real world using class
+
+Properties e.g of headphones characteristics
+colour
+weight
+brand
+material
+
+behaviour- things they can do
+the sound
+on/off
+
+
+
+What would you do with this template?
+replicating the objects
+
+
+objects- real thing
+
+
+Everything is an object - by default if you make a person object, string object - all objects whatever
+method is in the object class it is also available within the other objects
+objects, arrays --> object class as their super class
+primitives are not objects
+
+
+parent of class of objects == object class
+so everything
+
+tostrring method - you need to overrride it and rewrite it when you want to print it

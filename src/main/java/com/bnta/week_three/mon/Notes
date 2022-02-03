@@ -1,0 +1,7 @@
+Classes
+1.Classes to make the blueprint - POJOS only has the properties/getters/setters dont do anything MODELS
+2. Classes - businesss logic add service in the end of the name- SERVICE
+3. Classes to interact - DAO
+
+
+we want to put a car (blueprint) in the garage (blueprint) add service in the end - data access service
