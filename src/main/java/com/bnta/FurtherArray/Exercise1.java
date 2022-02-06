@@ -1,4 +1,4 @@
-package com.bnta.FurtherArray;
+package com.bnta.furtherArray;
 
 import java.util.Arrays;
 

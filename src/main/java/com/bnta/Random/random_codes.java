@@ -1,7 +1,4 @@
-package com.bnta.Random;
-
-import java.sql.SQLOutput;
-import java.util.Scanner;
+package com.bnta.random;
 
 
  /*
@@ -11,17 +8,17 @@ public class random_codes {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Translate");
-        String input = scanner.nextLine();
+        String input.txt = scanner.nextLine();
 
-        if (input.equals("Ola")) {
+        if (input.txt.equals("Ola")) {
             System.out.println("Portueguese");
-        } else if (input.equals("Hola")) {
+        } else if (input.txt.equals("Hola")) {
             System.out.println("Hello");
         } else {
             System.out.println("Language not supported"); }
 
 //next line will return a string back
-        //System.out.println("Hello" + input);
+        //System.out.println("Hello" + input.txt);
         // program will not exit
 
 

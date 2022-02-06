@@ -67,11 +67,11 @@ public class Exercise1 {
         System.out.println(reverse("Wendy"));
         System.out.println();
 
-        static String reverse(String input) {
+        static String reverse(String input.txt) {
             String output = "";
-            for (int i=input.length -1; i >=0; i--) {
-                System.out.println(input.charAt(i));
-                output += input.charAt(i);
+            for (int i=input.txt.length -1; i >=0; i--) {
+                System.out.println(input.txt.charAt(i));
+                output += input.txt.charAt(i);
 
             }
             return output; */

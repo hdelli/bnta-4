@@ -11,7 +11,7 @@ public class Exercise5 {
         System.out.println("Want to hear a joke?");
         System.out.println("Yes/No");
         Scanner n = new Scanner(System.in);
-        String input = n.nextLine();
+        String input.txt = n.nextLine();
         boolean keepAsking =true;
 
          while (keepAsking) {
@@ -19,11 +19,11 @@ public class Exercise5 {
              System.out.println("Want to hear a joke?");
              System.out.println("Yes/No");
              Scanner n = new Scanner(System.in);
-             String input = n.nextLine();
-        if (input.equals("Yes")|| input.equals("yes")) {
+             String input.txt = n.nextLine();
+        if (input.txt.equals("Yes")|| input.txt.equals("yes")) {
             Yes();
 
-        } else if (input.equals("No")|| input.equals("no")) {
+        } else if (input.txt.equals("No")|| input.txt.equals("no")) {
             System.out.println("No joke for you");
         }
         else {

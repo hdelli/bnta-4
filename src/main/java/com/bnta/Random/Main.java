@@ -1,4 +1,4 @@
-package com.bnta.Random;
+package com.bnta.random;
 
 
 public class Main {

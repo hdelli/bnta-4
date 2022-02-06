@@ -1,4 +1,4 @@
-package com.bnta.FlightBooking.Flights;
+package com.bnta.flightBooking.Flights;
 
 public enum Airport
 {

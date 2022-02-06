@@ -1,6 +1,6 @@
-package com.bnta.FlightBooking.Flights;
+package com.bnta.flightBooking.Flights;
 
-import com.bnta.FlightBooking.Passengers.Passenger;
+import com.bnta.flightBooking.Passengers.Passenger;
 
 public class Flight {
     private long flightNumber;

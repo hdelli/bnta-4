@@ -47,7 +47,7 @@ public class WorkingWithDates {
 //create a method
 // going to give back an integer
 //create an array
-//one array is going to be input into a method
+//one array is going to be input.txt into a method
 // create a for loop - add all the dates
 // then whenever it loops each date add it to the temporary variable
 //return a placeHolderName

@@ -1,4 +1,4 @@
-package com.bnta.Methods;
+package com.bnta.methods;
 
 public class Example {
     public static void main(String[] args) {

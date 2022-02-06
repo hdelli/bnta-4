@@ -1,4 +1,4 @@
-package com.bnta.Methods;
+package com.bnta.methods;
 
 public class Exercise5 {
     public static void main(String[] args) {
@@ -12,8 +12,8 @@ public class Exercise5 {
     // Method signature - takes string as argument then returns String
 
     public static String capitalFirstLetter(String input) //this name can be used inside the method)
-    //capitalise the first letter of input
-    { // String capitalString = input.substring(0, 1).toUpperCase() + input.substring(1).toLowerCase();
+    //capitalise the first letter of input.txt
+    { // String capitalString = input.txt.substring(0, 1).toUpperCase() + input.txt.substring(1).toLowerCase();
         //couldve put it here
             // return the modified String
         return input.substring(0, 1).toUpperCase() + input.substring(1).toLowerCase();

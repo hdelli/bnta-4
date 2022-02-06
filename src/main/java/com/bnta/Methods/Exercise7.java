@@ -1,4 +1,4 @@
-package com.bnta.Methods;
+package com.bnta.methods;
 
 /*Write a method which takes a sentence as an argument, counts the number of words in the array and prints "The sentence contains X words".
 

@@ -1,4 +1,4 @@
-package com.bnta.Conditionals;
+package com.bnta.conditionals;
 
 public class Exercise1 {
     public static void main(String[] args) {

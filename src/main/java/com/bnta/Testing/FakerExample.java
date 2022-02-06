@@ -1,4 +1,4 @@
-package com.bnta.Testing;
+package com.bnta.testing;
 
 import com.github.javafaker.Faker;
 

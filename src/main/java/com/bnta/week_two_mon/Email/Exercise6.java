@@ -26,13 +26,13 @@ public class Exercise6 {
     }
 
     public static String specialAt() {
-        // String input = n.nextLine();
+        // String input.txt = n.nextLine();
         String specialCharacter = "@";
         return specialCharacter;
     }
 
     public static String specialCom() {
-        // String input = n.nextLine();
+        // String input.txt = n.nextLine();
         String specialCharacter = ".com";
         return specialCharacter;
     }

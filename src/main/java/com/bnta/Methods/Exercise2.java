@@ -1,6 +1,4 @@
-package com.bnta.Methods;
-
-import java.util.Scanner;
+package com.bnta.methods;
 
 public class Exercise2 {
     public static void main(String[] args) {

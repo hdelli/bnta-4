@@ -9,7 +9,7 @@ public class ErrorHandling {
             System.out.println(result);
 
         } catch (NumberFormatException e) {
-            System.out.println("oops input not a number"); //you can have numerous catches
+            System.out.println("oops input.txt not a number"); //you can have numerous catches
         } //catch (Exception e) //this is anything thats outside of the try
         {}
         //catch (ArithmeticException) {
@@ -22,11 +22,11 @@ public class ErrorHandling {
 //exit code 0
         //exit code 1= wrong
 
-        //Exception in thread "main" java.lang.NumberFormatException: For input string: "Linda", the numberformatexception is a class error
+        //Exception in thread "main" java.lang.NumberFormatException: For input.txt string: "Linda", the numberformatexception is a class error
     }
 
 /*
-int [] numbers = {1, 2, 3, 0, 4, 5}; //if theres an input you need to think there
+int [] numbers = {1, 2, 3, 0, 4, 5}; //if theres an input.txt you need to think there
 
     for (int number : numbers) {
         int add = (number + 100) / number;

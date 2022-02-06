@@ -1,4 +1,4 @@
-package com.bnta.Methods;
+package com.bnta.methods;
 /*
 Write a method which takes an array of strings as an argument and returns the number of items in the array.
 parameter= does not change

@@ -1,4 +1,4 @@
-package com.bnta.FlightBooking.Passengers;
+package com.bnta.flightBooking.Passengers;
 
 import java.util.Objects;
 

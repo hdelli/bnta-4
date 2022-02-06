@@ -1,4 +1,4 @@
-package com.bnta.FlightBooking.Flights;
+package com.bnta.flightBooking.Flights;
 
 public class FlightDAO { // METHOD THAT RETURNS A LIST OF FLIGHTS AND DATABASE THAT STORES THE LIST OF FLIGHTS
     private Flight[] flights;

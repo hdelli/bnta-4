@@ -1,4 +1,4 @@
-package com.bnta.Methods;
+package com.bnta.methods;
 
 /*
 Write a method which takes two numbers as arguments and prints one of:

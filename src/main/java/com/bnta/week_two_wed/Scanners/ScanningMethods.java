@@ -7,7 +7,7 @@ public class ScanningMethods {
     public static void main(String[] args) {
 
 
-    File inputFile = new File("/Users/iainsandison/input.txt");
+    File inputFile = new File("/Users/iainsandison/input.txt.txt");
 // Create a File object from our text file
 
     Scanner ourScanner = new Scanner(inputFile);
@@ -18,10 +18,10 @@ while(ourScanner.hasNext()) {
 
         System.out.println("There's another line!");
 
-        String input = ourScanner.nextLine();
-        // Note that we need to include a consumption method still to make use of the input
+        String input.txt = ourScanner.nextLine();
+        // Note that we need to include a consumption method still to make use of the input.txt
 
-        System.out.println(input);
+        System.out.println(input.txt);
 
     }
 

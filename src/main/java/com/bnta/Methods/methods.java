@@ -1,4 +1,4 @@
-package com.bnta.Methods;
+package com.bnta.methods;
 // in this example it is telling us how many characters the word has, it can take any argument
 
 //method is only run when called upon
@@ -12,10 +12,10 @@ the main function is to evoke the methods
 String result = capitalize("michael"); <--- function
 
 ADD STATIC private(access modifier) String-- *return type* do you want the method to return a string/data type then write the type of data --
-use void-- to print something then add a name (inside here you can have 0 or more parameters e.g String input, int input,
+use void-- to print something then add a name (inside here you can have 0 or more parameters e.g String input.txt, int input.txt,
 String[] inputs etc){} :
 
-static private String capitalize(String input){} <------ a method that will return a String
+static private String capitalize(String input.txt){} <------ a method that will return a String
 { for(int i=0; i<string.length; i++) {
 capitals[i] = spring[i].toUpperclass();
 

@@ -1,0 +1,13 @@
+1.POJO
+
+a.person - will have email, first name and surname
+b. Questionnaire - will have ID/maybe?
+
+
+
+2.Service-
+a.questionnaire service
+
+
+3.DAO
+questionnaire DAO
