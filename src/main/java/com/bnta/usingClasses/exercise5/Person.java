@@ -1,23 +1,28 @@
 package com.bnta.usingClasses.exercise5;
 
+import java.time.LocalDate;
 import java.util.Date;
 import java.util.Objects;
 
 public class Person {
+
+        private int id;
         private String firstName;
         private String surname;
         private String email;
-        private Date dob;
 
-        public Person(String firstName, String surname, String email, Date dob) {
+        public Person(String firstName, String surname, String email) {
                 this.firstName = firstName;
                 this.surname = surname;
                 this.email = email;
-                this.dob = dob;
         }
 
-        public Person() {
+        public int getId() {
+                return id;
+        }
 
+        public void setId(int id) {
+                this.id = id;
         }
 
         public String getFirstName() {
@@ -44,36 +49,26 @@ public class Person {
                 this.email = email;
         }
 
-        public Date getDob() {
-                return dob;
-        }
-
-        public void setDob(Date dob) {
-                this.dob = dob;
-        }
-
         @Override
         public boolean equals(Object o) {
                 if (this == o) return true;
                 if (o == null || getClass() != o.getClass()) return false;
                 Person person = (Person) o;
-                return Objects.equals(firstName, person.firstName) && Objects.equals(surname, person.surname) && Objects.equals(email, person.email) && Objects.equals(dob, person.dob);
+                return id == person.id && Objects.equals(firstName, person.firstName) && Objects.equals(surname, person.surname) && Objects.equals(email, person.email);
         }
 
         @Override
         public int hashCode() {
-                return Objects.hash(firstName, surname, email, dob);
+                return Objects.hash(id, firstName, surname, email);
         }
 
         @Override
         public String toString() {
                 return "Person{" +
-                        "firstName='" + firstName + '\'' +
+                        "id=" + id +
+                        ", firstName='" + firstName + '\'' +
                         ", surname='" + surname + '\'' +
                         ", email='" + email + '\'' +
-                        ", dob=" + dob +
-                        '}';
+                        '}' + "\n";
         }
 }
-
-

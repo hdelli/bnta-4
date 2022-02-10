@@ -9,16 +9,15 @@ import java.util.Date;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
+
+        PersonService personService = new PersonService();
+        personService.addPerson();
 
 
-        System.out.println("Enter date of birth");
-       // QuestionnaireService name = new QuestionnaireService();
 
 
-        //ystem.out.println(name);
 
 
-        //System.out.println(date1); <-- save it in file
     }
 }
