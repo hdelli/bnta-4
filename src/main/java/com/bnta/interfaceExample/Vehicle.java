@@ -12,7 +12,6 @@ public interface Vehicle {
 
      void applyBreak();
 
-
      double getCurrentSpeed();
 
 
